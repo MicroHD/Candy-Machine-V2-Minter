@@ -26,34 +26,34 @@ The Frog-Nation-Minter project is meant to be as simple and usable as possible, 
 
 ## *Installation*
 
-1. *Fork The Project, Then Clone It Into A Folder. Example:  
+1. Fork The Project, Then Clone It Into A Folder. Example:  
 > git clone https://github.com/MicroHD/Frog-Nation-Minter.git
 
-2. *Install The Dependencies. Example:
+2. Install The Dependencies. Example:
 > cd Frog-Nation-Minter
 > yarn install
 
-3. *Define Your Environment Variables Using The Instructions Below, And Start Up The Server With ``` npm start ```
+3. Define Your Environment Variables Using The Instructions Below, And Start Up The Server With ``` npm start ```
 
-4. *Edit Components And Home Page Information To Your NFT Project Information 
+4. Edit Components And Home Page Information To Your NFT Project Information 
 
-5. *Build The Project. Example:
+5. Build The Project. Example:
 > yarn build
 
-## *Environment Variables*
+## Environment Variables*
 
-*To run the project, first rename the ```.env.template``` file at the root directory to ```.env``` and update the following variables:
+To run the project, first rename the ```.env.template``` file at the root directory to ```.env``` and update the following variables:
 > REACT_APP_CANDY_MACHINE_CONFIG=__PLACEHOLDER__
 
-*This is a Solana account address. You can get the value for this from the ```.cache/temp file.``` This file is created when you run the ```metaplex upload``` command in terminal.
+This is a Solana account address. You can get the value for this from the ```.cache/temp file.``` This file is created when you run the ```metaplex upload``` command in terminal.
 
 > REACT_APP_SOLANA_NETWORK=__PLACEHOLDER__
 
-*This identifies the Solana network you want to connect to. Options are ```devnet```, ```testnet```, and ```mainnet-beta```.
+This identifies the Solana network you want to connect to. Options are ```devnet```, ```testnet```, and ```mainnet-beta```.
 
 > REACT_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
 
-*This identifies the RPC server your web app will access the Solana network through.
+This identifies the RPC server your web app will access the Solana network through.
 
 
 # Built For Candy Machine v2 Only 

@@ -19,8 +19,8 @@ import { Nav, NavbarContainer, WalletText } from "./components/Nav/NavbarElement
 import { HeroContainer, HeroImage, HeroSupply, HeroText, SocialBtn, TwitterBtn, DiscordBtn, ConnectContainer, AboutArea } from "./components/Hero/HeroElements";
 import AboutSection from "./components/About/About";
 import { pink } from "@material-ui/core/colors";
-import ConnectBG from "../src/img/hero/ConnectBG.jpg";
-import MintBG from '../src/img/hero/ConnectBG.jpg';
+import ConnectBG from "../src/img/Hero/ConnectBG.jpg";
+import MintBG from '../src/img/Hero/ConnectBG.jpg';
 import Header from '../src/img/hero/MM_WEBSITE.png'
 import { AboutLink } from "./components/Hero/HeroElements";
 import AccordionC from "./components/FAQ/AccordianElements";

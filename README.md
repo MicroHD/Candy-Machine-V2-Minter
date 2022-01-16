@@ -12,6 +12,7 @@ The Frog-Nation-Minter project is meant to be as simple and usable as possible, 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FMicroHD%2FFrog-Nation-Minter)
 
+![alt text](https://github.com/MicroHD/Candy-Machine-V2-Minter/blob/main/Sneek.png)
 
 # Getting Set Up
 

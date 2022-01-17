@@ -2,6 +2,8 @@
 
 The Frog-Nation-Minter project is designed to let users fork, customize, and deploy their own candy machine ```V2``` mint app to a custom domain, ultra fast.
 
+Built With React NFT/Collectable Candy Machine V2 Frontend Minter basic components ready to go just edit as you like.
+
 A candy machine is an on-chain Solana program (or smart contract) for managing fair mint. Fair mints:
 
 * Start and finish at the same time for everyone.
@@ -41,10 +43,10 @@ The Frog-Nation-Minter project is meant to be as simple and usable as possible, 
 5. Build The Project. Example:
 > yarn build
 
-## Environment Variables*
+## Environment Variables
 
 To run the project, first rename the ```.env.template``` file at the root directory to ```.env``` and update the following variables:
-> REACT_APP_CANDY_MACHINE_CONFIG=__PLACEHOLDER__
+> REACT_APP_CANDY_MACHINE_ID=`Replace With Your Candy Machine Address`
 
 This is a Solana account address. You can get the value for this from the ```.cache/temp file.``` This file is created when you run the ```metaplex upload``` command in terminal.
 
@@ -54,7 +56,7 @@ This identifies the Solana network you want to connect to. Options are ```devnet
 
 > REACT_APP_SOLANA_RPC_HOST=https://explorer-api.devnet.solana.com
 
-This identifies the RPC server your web app will access the Solana network through.
+This identifies the RPC server your web app will access the Solana network through. 
 
 
 # Built For Candy Machine v2 Only 
